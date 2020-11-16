@@ -1,0 +1,5 @@
+framework module NtmUtilityFramework {
+	umbrella header "NtmUtilityFramework.h"
+	export *
+	module * { export * }
+}

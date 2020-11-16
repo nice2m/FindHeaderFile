@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE767872245A78F30068E215 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE767871245A78F30068E215 /* AppDelegate.m */; };
+		EE767875245A78F30068E215 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE767874245A78F30068E215 /* ViewController.m */; };
+		EE767877245A78F50068E215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE767876245A78F50068E215 /* Assets.xcassets */; };
+		EE76787A245A78F50068E215 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE767878245A78F50068E215 /* Main.storyboard */; };
+		EE76787D245A78F50068E215 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE76787C245A78F50068E215 /* main.m */; };
+		EEDDAAED250B5BD0000FB417 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDAAEB250B5BD0000FB417 /* MainController.m */; };
+		EEDDAAFB250B630E000FB417 /* MessageUI.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDAAFA250B630E000FB417 /* MessageUI.m */; };
+		EEE5B61B251891D7004EF420 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5B61A251891D7004EF420 /* Util.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE76786D245A78F30068E215 /* FindAllDotHFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindAllDotHFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE767870245A78F30068E215 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE767871245A78F30068E215 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE767873245A78F30068E215 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE767874245A78F30068E215 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE767876245A78F50068E215 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE767879245A78F50068E215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE76787B245A78F50068E215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE76787C245A78F50068E215 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE76787E245A78F50068E215 /* FindAllDotHFile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FindAllDotHFile.entitlements; sourceTree = "<group>"; };
+		EEDDAAEA250B5BD0000FB417 /* MainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		EEDDAAEB250B5BD0000FB417 /* MainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		EEDDAAF0250B5C55000FB417 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		EEDDAAF9250B630E000FB417 /* MessageUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageUI.h; sourceTree = "<group>"; };
+		EEDDAAFA250B630E000FB417 /* MessageUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageUI.m; sourceTree = "<group>"; };
+		EEE5B619251891D7004EF420 /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		EEE5B61A251891D7004EF420 /* Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE76786A245A78F30068E215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE767864245A78F30068E215 = {
+			isa = PBXGroup;
+			children = (
+				EE76786F245A78F30068E215 /* FindAllDotHFile */,
+				EE76786E245A78F30068E215 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE76786E245A78F30068E215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE76786D245A78F30068E215 /* FindAllDotHFile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE76786F245A78F30068E215 /* FindAllDotHFile */ = {
+			isa = PBXGroup;
+			children = (
+				EEDDAAF8250B62F6000FB417 /* Helper */,
+				EE767870245A78F30068E215 /* AppDelegate.h */,
+				EE767871245A78F30068E215 /* AppDelegate.m */,
+				EE767873245A78F30068E215 /* ViewController.h */,
+				EE767874245A78F30068E215 /* ViewController.m */,
+				EEDDAAEA250B5BD0000FB417 /* MainController.h */,
+				EEDDAAEB250B5BD0000FB417 /* MainController.m */,
+				EE767876245A78F50068E215 /* Assets.xcassets */,
+				EE767878245A78F50068E215 /* Main.storyboard */,
+				EE76787B245A78F50068E215 /* Info.plist */,
+				EE76787C245A78F50068E215 /* main.m */,
+				EE76787E245A78F50068E215 /* FindAllDotHFile.entitlements */,
+				EEDDAAF0250B5C55000FB417 /* BaseViewController.h */,
+			);
+			path = FindAllDotHFile;
+			sourceTree = "<group>";
+		};
+		EEDDAAF8250B62F6000FB417 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EEDDAAF9250B630E000FB417 /* MessageUI.h */,
+				EEDDAAFA250B630E000FB417 /* MessageUI.m */,
+				EEE5B619251891D7004EF420 /* Util.h */,
+				EEE5B61A251891D7004EF420 /* Util.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE76786C245A78F30068E215 /* FindAllDotHFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE767881245A78F50068E215 /* Build configuration list for PBXNativeTarget "FindAllDotHFile" */;
+			buildPhases = (
+				EE767869245A78F30068E215 /* Sources */,
+				EE76786A245A78F30068E215 /* Frameworks */,
+				EE76786B245A78F30068E215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindAllDotHFile;
+			productName = FindAllDotHFile;
+			productReference = EE76786D245A78F30068E215 /* FindAllDotHFile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE767865245A78F30068E215 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = dftc;
+				TargetAttributes = {
+					EE76786C245A78F30068E215 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = EE767868245A78F30068E215 /* Build configuration list for PBXProject "FindAllDotHFile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE767864245A78F30068E215;
+			productRefGroup = EE76786E245A78F30068E215 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE76786C245A78F30068E215 /* FindAllDotHFile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE76786B245A78F30068E215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE767877245A78F50068E215 /* Assets.xcassets in Resources */,
+				EE76787A245A78F50068E215 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE767869245A78F30068E215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDDAAED250B5BD0000FB417 /* MainController.m in Sources */,
+				EE767875245A78F30068E215 /* ViewController.m in Sources */,
+				EE76787D245A78F50068E215 /* main.m in Sources */,
+				EE767872245A78F30068E215 /* AppDelegate.m in Sources */,
+				EEDDAAFB250B630E000FB417 /* MessageUI.m in Sources */,
+				EEE5B61B251891D7004EF420 /* Util.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE767878245A78F50068E215 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE767879245A78F50068E215 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE76787F245A78F50068E215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EE767880245A78F50068E215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EE767882245A78F50068E215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FindAllDotHFile/FindAllDotHFile.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2D3U254JQ6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = FindAllDotHFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dftc.FindAllDotHFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE767883245A78F50068E215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FindAllDotHFile/FindAllDotHFile.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2D3U254JQ6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = FindAllDotHFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dftc.FindAllDotHFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE767868245A78F30068E215 /* Build configuration list for PBXProject "FindAllDotHFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE76787F245A78F50068E215 /* Debug */,
+				EE767880245A78F50068E215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE767881245A78F50068E215 /* Build configuration list for PBXNativeTarget "FindAllDotHFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE767882245A78F50068E215 /* Debug */,
+				EE767883245A78F50068E215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE767865245A78F30068E215 /* Project object */;
+}
