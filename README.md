@@ -2,13 +2,13 @@
 
 FindAllDotHFile
 
-1 .可递归查找根目录下的所有.h文件，且生成#import <.h> 
+1 .可递归查找根目录下的所有.h文件，且生成#import <.h> ,方便调用
 
 2 . 可生成framework所需要的，.moduleMap 文件
 
 
 
->生成framework，避免重复编译，加快编译链接速度，打包速度
+>生成framework，避免重复编译，加快编译速度，打包速度
 可用于Release 形态打包，节省打包时间；
 
 
@@ -34,23 +34,19 @@ FindAllDotHFile
 
 
 好处：
-1. 减少编译链接时间
-2. 适用于Release 形态 打包
+1. 减少编译时间
+2. 适用于 Release 形态 打包
 
 坏处：
-1. Debug 形态不方便调试，目前无法进入断点
+1. Debug 形态不方便调试，目前无法源码进入断点
 2. 增加动态库load时间，启动app时间(极少)
 
 
 
-# 下一步进阶
+# 相关阅读
 
 [相同类型项目,生成通用framework](https://github.com/gurhub/universal-framework)
 
 [美团 iOS 工程 zsource 命令背后的那些事儿](https://tech.meituan.com/2019/08/08/the-things-behind-the-ios-project-zsource-command.html)
-
-
-
-
 
 
