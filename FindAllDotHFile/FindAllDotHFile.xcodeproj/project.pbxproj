@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63252A9F2600B70000FF6C50 /* MainCooker.m in Sources */ = {isa = PBXBuildFile; fileRef = 63252A9D2600B70000FF6C50 /* MainCooker.m */; };
 		EE767872245A78F30068E215 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE767871245A78F30068E215 /* AppDelegate.m */; };
 		EE767875245A78F30068E215 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE767874245A78F30068E215 /* ViewController.m */; };
 		EE767877245A78F50068E215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE767876245A78F50068E215 /* Assets.xcassets */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63252A9D2600B70000FF6C50 /* MainCooker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCooker.m; sourceTree = "<group>"; };
+		63252A9E2600B70000FF6C50 /* MainCooker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCooker.h; sourceTree = "<group>"; };
 		EE76786D245A78F30068E215 /* FindAllDotHFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindAllDotHFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE767870245A78F30068E215 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE767871245A78F30068E215 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 		EEDDAAF8250B62F6000FB417 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				63252A9E2600B70000FF6C50 /* MainCooker.h */,
+				63252A9D2600B70000FF6C50 /* MainCooker.m */,
 				EEDDAAF9250B630E000FB417 /* MessageUI.h */,
 				EEDDAAFA250B630E000FB417 /* MessageUI.m */,
 				EEE5B619251891D7004EF420 /* Util.h */,
@@ -165,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEDDAAED250B5BD0000FB417 /* MainController.m in Sources */,
+				63252A9F2600B70000FF6C50 /* MainCooker.m in Sources */,
 				EE767875245A78F30068E215 /* ViewController.m in Sources */,
 				EE76787D245A78F50068E215 /* main.m in Sources */,
 				EE767872245A78F30068E215 /* AppDelegate.m in Sources */,

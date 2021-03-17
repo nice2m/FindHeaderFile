@@ -20,7 +20,7 @@
     [panel setAllowsMultipleSelection:NO];
     NSInteger clicked = [panel runModal];
 
-    NSMutableArray <NSString *> *rt = [NSMutableArray array];
+    NSMutableArray <NSURL *> *rt = [NSMutableArray array];
     if (clicked == NSModalResponseCancel){
         canceled();
         return;

@@ -11,11 +11,14 @@
 
 
 @implementation MessageUI
-- (void)showMsg{
+
++ (void)showMsg: (NSString *)msg{
     NSAlert * alert = [[NSAlert alloc] init];
     alert.alertStyle = NSAlertStyleInformational;
+    alert.messageText = msg ;
+    [alert addButtonWithTitle:@"OK"];
+
     [alert runModal];
 }
-
 
 @end
